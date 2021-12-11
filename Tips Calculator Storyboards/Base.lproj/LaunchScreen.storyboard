@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController interfaceStyle="light" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="background_2" translatesAutoresizingMaskIntoConstraints="NO" id="wPC-dn-shw">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7f-xe-a4H">
+                                <rect key="frame" x="133.33333333333331" y="439.33333333333331" width="161.33333333333331" height="47.666666666666686"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Welcome">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="43"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="F7f-xe-a4H" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0nP-ug-DtW"/>
+                            <constraint firstItem="wPC-dn-shw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="1X9-VF-MVR"/>
+                            <constraint firstItem="wPC-dn-shw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Mye-ef-cOo"/>
+                            <constraint firstItem="wPC-dn-shw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PLw-6r-dx9"/>
+                            <constraint firstItem="wPC-dn-shw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gLo-dn-WDz"/>
+                            <constraint firstAttribute="bottom" secondItem="wPC-dn-shw" secondAttribute="bottom" id="jke-3f-Dx7"/>
+                            <constraint firstItem="wPC-dn-shw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="sqg-j3-DIA"/>
+                            <constraint firstItem="F7f-xe-a4H" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zoN-aS-v7w"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.86915887850467" y="374.51403887688986"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background_2" width="640" height="1136"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
